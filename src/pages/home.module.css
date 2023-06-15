@@ -1,0 +1,35 @@
+.container{
+  padding-bottom: 100px;
+}
+.packageContainer {
+  position: relative;
+  top: 40px;
+  padding: 10px;
+  margin: auto;
+}
+.packageContainer h1{
+    color: white;
+    text-align: center;
+    
+}
+.packages {
+  /* margin-left: 10px; */
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.serviceContainer{
+  position: relative;
+  top: 80px;
+}
+.serviceContainer h1{
+  font-size: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.services{
+  display: flex;
+  flex-wrap: wrap;
+}

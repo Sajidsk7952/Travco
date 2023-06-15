@@ -1,0 +1,41 @@
+.planSection{
+    top: 100px;
+    /* left: 20px; */
+    position: relative;
+    padding: 10px;
+    background-color: rgb(222, 221, 221);
+}
+.plansTitle{
+    text-align: center;
+    color: rgb(19, 18, 18);
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(12, 12, 12, 0.5);
+}
+.best-plan{
+    margin: auto;
+    position: relative;
+    padding: 10px 0px;
+    /* margin: 50px; */
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tit{
+    padding-top: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2rem;
+    /* text-decoration: underline; */
+}
+.morelink{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.morelink:hover{
+    transform: scale(0.8);
+}

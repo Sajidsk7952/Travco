@@ -1,0 +1,33 @@
+.newsform{
+    width: 100%;
+    padding: 20px ;
+    border-left: 2px dotted rgb(221, 9, 221);
+    border-right: 2px dotted rgb(220, 8, 220);
+}
+.newsform h4{
+    text-transform: capitalize;
+}
+.newsform input{
+    width: 350px;
+    padding: 1rem 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.newsform button{
+    display: block;
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    background-color: rgb(113, 211, 235);
+}
+.newsform button:hover{
+    transform: scale(1.112);
+    text-decoration: underline;
+    /* box-shadow: 2px 2px 4px 2px rgb(163, 160, 160); */
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(90, 145, 227);
+}

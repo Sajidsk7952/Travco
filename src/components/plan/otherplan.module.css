@@ -1,0 +1,54 @@
+.container {
+  margin: 20px 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 9px;
+  transition: all 0.3s ease-in;
+}
+.imgbox {
+  width: 100%;
+  height: 350px;
+}
+.imgbox img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(90%);
+}
+.content {
+  margin-left: 10px;
+}
+.info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+.info h3 {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.info p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.but {
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+  margin: 10px 0px;
+  border: 2px solid white;
+  transition: all 0.2s ease-in;
+  background-color: rgb(219, 206, 228);
+}
+.container:hover img {
+  filter: brightness(100%);
+}
+.container:hover {
+  box-shadow: 2px 2px 4px 4px gray;
+}
+.but:hover {
+  border: 2px solid rgb(203, 149, 242);
+  background-color: white;
+  color: indigo;
+}

@@ -1,0 +1,31 @@
+.container{
+    top: 70px;
+    /* left: 20px; */
+    position: relative;
+    padding: 10px;
+    padding-bottom: 100px;
+    background-color: rgb(231, 214, 243);
+}
+.head{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px rgb(145, 144, 144);
+}
+.buts{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.buts button{
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+    margin: 0px 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+}
+.buts button:focus,.buts button:hover,.buts button.active{
+    border-bottom: 2px solid indigo;
+}

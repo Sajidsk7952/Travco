@@ -1,0 +1,42 @@
+.package{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    filter: brightness(8px);
+    transition: all 0.4s;
+}
+.imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.imgbox img{
+    transition: all 0.5s;
+    object-fit: cover;
+}
+.name{
+    position: absolute;
+    width: 95%;
+    top: 30px;
+    padding: 10px;
+    /* background: rgba(0, 0, 0, 0.2); */
+    text-shadow: 2px 2px 2px rgba(97, 96, 96, 0.2);
+    color: black;
+    transform: translateY(100%);
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.package img{
+    /* max-height: 500px;
+    max-width: 300px;
+    min-height: 300px;
+    min-width: 100px; */
+    width: 400px;
+    height: 500px;
+}
+.package:hover img{
+    transform: scale(1.12);
+    filter: blur(0px);
+}

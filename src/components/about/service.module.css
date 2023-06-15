@@ -1,0 +1,27 @@
+.service{
+    width: 30%;
+    /* height: 200px; */
+    border: 8px solid lightgray;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    transition: all 0.5s;
+}
+.icons{
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: indigo;
+}
+.service:hover{
+    border: 8px solid transparent;
+    /* box-shadow: inset 0 0 10px #000000; */
+    box-shadow: 0 0 8px 8px lightgray;
+}
+.info h4{
+    font-size: 1.3rem;
+    padding: 5px 0px;
+    text-transform: capitalize;
+}
+.info p{
+    letter-spacing: 1px;
+}

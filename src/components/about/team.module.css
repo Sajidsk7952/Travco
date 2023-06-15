@@ -1,0 +1,39 @@
+.team{
+    /* width: 18%; */
+    width: 200px;
+    height: 350px;
+    background-color: lightgray;
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.team img{
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 30%;
+    margin-top: 10px;
+    border: 4px solid indigo;
+    transition: all 0.3s;
+}
+.teamInfo{
+    padding: 10px;
+    margin: 10px;
+}
+.teamInfo h3{
+    padding: 5px;
+}
+.teamInfo h5{
+    padding: 5px;
+}
+.teamInfo p{
+    padding: 5px;
+}
+.team:hover img{
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 4px 4px rgb(154, 153, 153);
+}

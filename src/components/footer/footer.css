@@ -1,0 +1,63 @@
+.footer {
+  margin-bottom: 0px;
+  position: relative;
+  /* margin-top: 100px; */
+  background: rgba(77, 30, 127, 0.886);
+  color: gainsboro;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.company-info {
+  margin: 0px 10px;
+  /* flex: 1; */
+}
+.queries {
+  font-size: 1.2rem;
+  /* width: 60%; */
+  margin: 10px 0px;
+  border-top: 2px dotted rgb(236, 10, 236);
+  color: rgb(244, 235, 235);
+}
+.company-info h4 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.4rem;
+  text-decoration: solid;
+}
+.contacts {
+  width: 100%;
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.contacts h4 {
+  text-align: center;
+}
+.contacts p {
+  margin-left: 40px;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.social-icons {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  font-size: 1rem;
+}
+.footer-icons {
+  font-size: 1.5rem;
+}
+.footer-icons:hover {
+  /* background-color: rgb(237, 11, 11); */
+  /* border-radius: 50%; */
+  color: rgb(151, 245, 8);
+  transform: scale(1.12);
+}

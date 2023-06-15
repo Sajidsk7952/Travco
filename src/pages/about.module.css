@@ -1,0 +1,72 @@
+.aboutpage{
+    padding-bottom: 100px;
+}
+.section{
+    position: relative;
+    top: 70px;
+    /* background-color: rgba(101, 99, 99, 0.3); */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.section img{
+    max-width: fit-content;
+    max-height: fit-content;
+    object-fit: cover;
+}
+.section h1{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px black;
+}
+.section p{
+    width: 90%;
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+.Historysection{
+    margin: 20px 0px;
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+.Historysection h1{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px black;
+}
+.Historysection p{
+    width: 90%;
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+.Historysection img{
+    max-width: 40%;
+    max-height: fit-content;
+    object-fit: cover;
+}
+.Teams{
+    position: relative;
+    top: 80px;
+    margin: 10px auto;
+}
+.Teams h1{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 2px 2px rgb(124, 123, 123);
+}
+.teamList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

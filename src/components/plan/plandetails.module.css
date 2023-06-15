@@ -1,0 +1,119 @@
+.details {
+  /* width: 90%; */
+  top: 70px;
+  position: relative;
+  background-color: rgb(226, 196, 247);
+  padding-bottom: 100px;
+  /* text-align: center; */
+}
+.but {
+  margin: 20px 30px;
+  padding: 1rem 1.2rem;
+  font-size: 1.3rem;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(225, 190, 248);
+}
+.imgbox {
+  margin: 20px 5px;
+  width: 100%;
+  height: fit-content;
+  /* max-height: 400px;
+    min-height: 200px; */
+  /* background-color: white; */
+  margin: auto;
+  /* align-content: center; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgbox img {
+  margin: 10px 5px;
+  width: 65%;
+  height: 350px;
+  /* object-fit: cover; */
+  border-radius: 10px;
+  align-items: center;
+  /* margin-left: 30px; */
+}
+.content {
+  margin: 20px 10px;
+  padding: 10px;
+}
+.container h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 10px 0px;
+}
+.content h3 {
+  padding: 10px 0px;
+  margin: 5px 0px;
+  font-size: 1.4rem;
+}
+.content h3 span {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.desc {
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.content h4 {
+  padding: 10px 0px;
+  font-size: 1.35rem;
+  font-weight: 450;
+}
+.content h4 span {
+  font-size: 1.2rem;
+  font-weight: 350;
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+.duration {
+  font-size: 1.3rem;
+  padding: 10px 0px;
+}
+.price {
+  font-size: 1.3rem;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-transform: capitalize;
+}
+.inclusions h4{
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+.inclusions p{
+    padding: 5px 0px;
+    letter-spacing: 0.8px;
+}
+.inclusions span{
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+.inclusions h5{
+    font-size: 1.25rem;
+    font-weight: 450;
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+.places{
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  padding: 5px 0px;
+  font-weight: 500;
+}
+.perperson{
+  font-size: 1rem;
+  text-decoration: underline;
+  font-weight: 350;
+}
